@@ -10,3 +10,4 @@ repos/
 projects/*/.local/
 .local/
 .claude/settings.local.json
+reports/monitor/
