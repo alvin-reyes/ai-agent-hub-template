@@ -285,7 +285,7 @@ orchestrator_endpoint_warning() {
 }
 # the method (story C1, .ade/context/method.md): ade-method is its only home. method_pin is the tag this template pins
 # (bin/init writes it as HUB_METHOD_REF); method_repo is where bin/method fetches it (AGENT_METHOD_REPO: tests' fixture)
-method_pin() { echo v2.0.0; }
+method_pin() { echo v2.1.0; }
 method_repo() { echo "${AGENT_METHOD_REPO:-https://github.com/better-ade/ade-method}"; }
 # hub.conf (written by bin/init): who this agent is and what it can reach. Names and locations only, never secrets.
 # AGENT_* environment variables override it (tests use them). Provider choice, role tables and hub ownership come only from hub.conf.
